@@ -22,8 +22,8 @@ title: Maykin
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Onder de noemer {MAYKIN}+ voert Maykin allerlei activiteiten uit om open source software duurzaam te maken en breder gebruik binnen de Nederlandse overheid te stimuleren.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/maykin-plus" # the subpath of your site, e.g. /blog
+url: "https://maykinmedia.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: maykin-media
 github_username: maykinmedia
 
