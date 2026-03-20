@@ -4,6 +4,6 @@ Onder de noemer **Maykin plus** voert Maykin allerlei activiteiten uit om open s
 
 ## Licentie
 
-Documenten in <a href="https://github.com/maykinmedia/maykin-plus/">deze repository</a> van <a href="https://www.maykin.nl">Maykin</a> zijn vrij te gebruiken onder de <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"> licentie.
+Documenten in [deze repository](https://github.com/maykinmedia/maykin-plus/) van [Maykin](https://www.maykin.nl) zijn vrij te gebruiken onder de [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) licentie.
 
 
