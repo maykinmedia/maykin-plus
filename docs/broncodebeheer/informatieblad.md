@@ -210,3 +210,6 @@ Totale bijdrage op jaarbasis:
 | 3             | 4                     | € 27.024                          |
 | 4             | 5                     | € 67.500                          |
 | **Totaal**    | **25**                | **€ 145.284**                     |
+
+
+*Versie 2 (7 januari 2026)*
