@@ -1,0 +1,26 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>
+            <a href="https://www.linkedin.com/company/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
+
+            <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> </a>
+        </p>
+
+        <p>
+            {{- site.description | escape -}}
+        </p>
+
+        <p>Documenten in <a href="https://github.com/maykinmedia/maykin-plus/">deze repository</a> van <a href="https://www.maykin.nl">Maykin</a> zijn te gebruiken onder de <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> <img width="16" height="16" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""> <img width="16" height="16" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""> licentie.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
