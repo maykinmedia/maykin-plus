@@ -1,13 +1,16 @@
 # Informatieblad bijdragen voor broncodebeheer 2026
 
-*Voor producten waar Maykin het broncodebeheer voor verzorgd*
+*Voor producten waar Broncodebeheerder het broncodebeheer voor verzorgd*
 
-Dit document bevat alle informatie rondom het broncodebeheer dat Maykin verzorgt voor een aantal open source producten. De werkzaamheden en activiteiten voor het broncodebeheer zijn in ieders belang en de kosten worden gedekt door alle Gebruikers, in de vorm van bijdragen. Deze bijdragen vormen samen het doelbedrag en daarmee ook het budget voor de werkzaamheden. De werkzaamheden en de bijdragen die Gebruikers moeten betalen, staan in dit document.
+Dit document bevat alle informatie rondom het broncodebeheer dat Broncodebeheerder verzorgt voor een aantal open source producten. De werkzaamheden en activiteiten voor het broncodebeheer zijn in ieders belang en de kosten worden gedekt door alle Gebruikers, in de vorm van bijdragen. Deze bijdragen vormen samen het doelbedrag en daarmee ook het budget voor de werkzaamheden. De werkzaamheden en de bijdragen die Gebruikers moeten betalen, staan in dit document.
 
 ## Definities
 
 **Broncodebeheer**  
 De werkzaamheden en activiteiten die horen bij het veilig en up-to-date houden van een open source applicatie, het onderhouden van de documentatie en het zorg dragen voor een gezond open source ecosysteem rondom het product.
+
+**Broncodebeheerder**  
+De hoofdontwikkelaar die de ontwikkeling leidt van het betreffende product en verantwoordelijk is voor het uitvoeren van de werkzaamheden en activiteiten die vallen onder Broncodebeheer.
 
 **Doelbedrag**  
 Het bedrag dat is vastgesteld en nodig is om invulling te geven aan de werkzaamheden en kosten voor het broncodebeheer.
@@ -22,21 +25,21 @@ De partij waarmee de broncodebeheer overeenkomst mee is afgesloten, zijnde een E
 Organisatie die het Product levert aan een Eindgebruiker.
 
 **Product(en)**  
-Een applicatie of registratie-component waar Maykin de ontwikkeling van leidt en het broncodebeheer voor verzorgd.
+Een applicatie of registratie-component waar Broncodebeheerder de ontwikkeling van leidt en het broncodebeheer voor verzorgd.
 
 **TPM-verklaring**  
 Een Derdenverklaring of Third Party Mededeling (TPM) is een verklaring die afgegeven wordt door een onafhankelijk audit partij over de kwaliteit van een ICT-dienstverlening en -beheersing van een organisatie.
 
 ## Werkzaamheden
 
-Om het broncodebeheer uit te voeren zijn de volgende werkzaamheden en activiteiten gedefinieerd, die Maykin uitvoert op de Producten:
+Om het broncodebeheer uit te voeren zijn de volgende werkzaamheden en activiteiten gedefinieerd, die Broncodebeheerder uitvoert op de Producten:
 
 1.	invulling geven aan het team dat de werkzaamheden uitvoert,
 2.	zorg dragen voor de beschikbaarheid van de broncode en images (momenteel op Github en DockerHub),
 3.	minimaal dagelijks image en code beveiligingsscans uitvoeren en bevindingen oplossen,
 4.	een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen accepteert,
 5.	een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,
-6.	CVE’s publiceren voor gevalideerde beveiligingsproblemen,
+6.	CVE's publiceren voor gevalideerde beveiligingsproblemen,
 7.	gerapporteerde bugs valideren en beoordelen op prioriteit,
 8.	gevalideerde en geprioriteerde bugs oplossen in patch-releases,
 9.	koppelingen compatible houden met patches en minor versiewijzigingen in het betreffende koppelvlak (major versiewijzigingen vallen expliciet onder doorontwikkeling),
@@ -54,10 +57,10 @@ Om het broncodebeheer uit te voeren zijn de volgende werkzaamheden en activiteit
 21.	nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar hebben,
 22.	een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,
 23.	geschikte Helm charts publiceren voor het product,
-24.	gebruikte componenten van derden ('afhankelijkheden' of ‘software bibliotheken’) bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,
+24.	gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken') bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,
 25.	zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
 26.	actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
-27.	het ‘VNG groeipact’ onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
+27.	het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
 28.	minimaal eenmaal per jaar een bijeenkomst te organiseren voor alle broncodebeheerpartners die meedoen aan het broncodebeheer voor het product,
 29.	inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,
 30.	indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
@@ -80,7 +83,7 @@ Er wordt een staffel gehanteerd om de bijdragen naar rato te verdelen over alle 
 | X	        | MKB-onderneming                           | 3         |
 | Y	        | Grote onderneming                         | 8         |
 
-Niet alle organisaties passen in de staffel. Als een organisatie niet in de staffel past, zal Maykin de organisatie op een zo’n passend mogelijke plek in de staffel plaatsen.
+Niet alle organisaties passen in de staffel. Als een organisatie niet in de staffel past, zal Broncodebeheerder de organisatie op een zo'n passend mogelijke plek in de staffel plaatsen.
 
 Indien er geen gebruikers zijn in een bepaalde categorie, dan wordt deze categorie niet getoond bij het product.
 
