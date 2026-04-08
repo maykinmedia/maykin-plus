@@ -31,4 +31,4 @@ Onder de noemer **{MAYKIN}+** voert [Maykin](https://www.maykin.nl) allerlei act
 * 🥇 - Gouden status in het [Common Ground portfolio](https://commonground.nl/page/view/b970e48c-8e27-4db9-9819-9b8583243490/draag-bij).
 * 🥈 - Zilveren status in het [Common Ground portfolio](https://commonground.nl/page/view/b970e48c-8e27-4db9-9819-9b8583243490/draag-bij).
 * 🥉 - Bronzen status in het [Common Ground portfolio](https://commonground.nl/page/view/b970e48c-8e27-4db9-9819-9b8583243490/draag-bij).
-* ❤️ - Open source en publiek beschikbaar (software onder de [EUPL](https://eupl.eu/1.2/nl/), documenten onder de [CC0](https://creativecommons.org/publicdomain/zero/1.0/))
+* ❤️ - Open source en publiek beschikbaar (software onder de [EUPL](https://eupl.eu/1.2/nl/), documenten onder de [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
