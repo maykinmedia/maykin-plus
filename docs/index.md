@@ -11,11 +11,11 @@ Onder de noemer **{MAYKIN}+** voert [Maykin](https://www.maykin.nl) allerlei act
 
 ## Thema's
 
-* [Broncodebeheer](broncodebeheer) ❤️ - Instandhouding na de initiële realisatie fase
+* [Broncodebeheer](broncodebeheer) - Instandhouding na de initiële realisatie fase
 
 ## Websites
 
-* [Samen Delen](https://samendelen.opengem.nl) 🥉 - Deel formulieren, zaaktypen en meer met elkaar
+* [Samen Delen](https://samendelen.opengem.nl) - Deel formulieren, zaaktypen en meer met elkaar
 
 ## Producten
 
@@ -28,7 +28,5 @@ Onder de noemer **{MAYKIN}+** voert [Maykin](https://www.maykin.nl) allerlei act
 
 **Legenda**
 
-* 🥇 - Gouden status in het [Common Ground portfolio](https://commonground.nl/page/view/b970e48c-8e27-4db9-9819-9b8583243490/draag-bij).
-* 🥈 - Zilveren status in het [Common Ground portfolio](https://commonground.nl/page/view/b970e48c-8e27-4db9-9819-9b8583243490/draag-bij).
-* 🥉 - Bronzen status in het [Common Ground portfolio](https://commonground.nl/page/view/b970e48c-8e27-4db9-9819-9b8583243490/draag-bij).
-* ❤️ - Open source en publiek beschikbaar (software onder de [EUPL](https://eupl.eu/1.2/nl/), documenten onder de [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+* 🥇🥈🥉 - Gouden, zilveren of bronzen status in het [Common Ground portfolio](https://commonground.nl/page/view/b970e48c-8e27-4db9-9819-9b8583243490/draag-bij).
+* ❤️ - Open source en publiek beschikbaar onder de [EUPL](https://eupl.eu/1.2/nl/).
