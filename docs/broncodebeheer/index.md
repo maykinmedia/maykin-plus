@@ -8,7 +8,8 @@ Vanuit de gedachte dat elke (overheids)gebruiker mee betaald aan broncodebeheer,
 
 # Documenten
 
-* [Informatieblad](informatieblad) - Uitleg over broncodebeheer en de kosten
+* [Toelichting](toelichting) - Uitleg en voorbeelden hoe deze documenten te gebruiken
+* [Informatieblad](informatieblad) - Uitgebreide informatie over broncodebeheer en de kosten
 * [Overeenkomst](overeenkomst) - Concept overeenkomst tussen gebruiker en broncodebeheerder
 
 # Berichten en media
