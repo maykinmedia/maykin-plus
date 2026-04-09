@@ -10,7 +10,7 @@ De *overeenkomst* is (meestal) tussen **leverancier** van een open source produc
 
 ## Voorbeelden
 
-Er zijn meerdere mogelijkheden om broncodebeheer te regelen, afhankelijk van wat past bij de leverancier en/of eindgebruiker. Voorbeeld 1 en 2 genieten de voorkeur als meest schaalbare optie. De twee voorbeelden zijn ook eigenlijk hetzelfde maar omdat er partij kan zijn met meerdere rollen, lijken ze verschillend en zijn ze beide opgenomen.
+Er zijn meerdere mogelijkheden om broncodebeheer te regelen, afhankelijk van wat past bij de leverancier en/of eindgebruiker. Voorbeeld 1 en 2 genieten de voorkeur als meest schaalbare optie. De twee voorbeelden zijn ook eigenlijk hetzelfde maar omdat er een partij kan zijn met meerdere rollen, lijken ze verschillend en zijn ze beide opgenomen.
 
 ### 1. Afname via de leverancier die ook broncodebeheerder is
 
