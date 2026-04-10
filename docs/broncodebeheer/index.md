@@ -9,7 +9,8 @@ Vanuit de gedachte dat elke (overheids)gebruiker mee betaald aan broncodebeheer,
 # Documenten
 
 * [Toelichting](toelichting) - Uitleg en voorbeelden hoe deze documenten te gebruiken
-* [Informatieblad](informatieblad) - Uitgebreide informatie over broncodebeheer en de kosten
+* [Informatieblad](informatieblad) - Uitgebreide informatie over broncodebeheer en de kosten (werkversie)
+  * [2026](archief/informatieblad-2026.md) - Vastgestelde versie 2026
 * [Overeenkomst](overeenkomst) - Concept overeenkomst tussen gebruiker en broncodebeheerder
 
 # Berichten en media
