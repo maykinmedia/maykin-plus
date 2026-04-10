@@ -30,40 +30,85 @@ Een applicatie of registratie-component waar Broncodebeheerder de ontwikkeling v
 **TPM-verklaring**  
 Een Derdenverklaring of Third Party Mededeling (TPM) is een verklaring die afgegeven wordt door een onafhankelijk audit partij over de kwaliteit van een ICT-dienstverlening en -beheersing van een organisatie.
 
+## Groeimodel
+
+Een open source product veilig en up-to-date houden is vanaf de allereerste gebruiker simpelweg nodig. Niet alleen voor die ene gebruiker maar ook om het het product levend en aantrekkelijk te houden voor potentiele nieuwe gebruikers.
+
+Echter, een relatief nieuw open source product is wel wat anders dan eentje die al langer bestaat. Een nieuw open source product heeft bijvoorbeeld:
+
+* Weinig gebruikers,
+* Een kleine of geen community,
+* Een enkele aanbieder (vaak de ontwikkelaar),
+* Geen externe bijdragen.
+
+Het broncodebeheer kan daar ook op aangepast worden: Werkzaamheden en activiteiten kunnen geminimaliseerd worden terwijl het producttoch veilig en up-to-date blijft. Denk bijvoorbeeld aan:
+
+* Minder vaak releases uitbrengen,
+* Minder actief op externe bijdragen of community vragen,
+* Instandhouding scharen onder (door)ontwikkeling met ad-hoc budget.
+
+Het broncodebeheermodel blijft hetzelfde maar er wordt een meetpunt geïntroduceerd om te bepalen in welke fase een product in het groeimodel zit. Als meetpunt hanteren we: Het aantal gebruikers dat het product in productie gebruikt, kortweg *eindgebruikers*. Het is zowel een eenvoudig te bepalen meetpunt en ook representatief voor welke werkzaamheden idealiter worden uitgevoerd.
+
+Als het aantal activiteiten en werkzaamheden daalt, dalen ook de kosten. Dit wordt uitgedruk in het percentage van het doelbedrag (en daarmee de bijdrage) dat benodigd is.
+
+| Fase  | # Eindgebruikers  | Kosten %  | Opmerkingen |
+|---|---|---|---|
+| 1     | 0 - 5             | 30 %      | Het minimale uit GIBIT 2025/2026 afdekken |
+| 2     | 6 - 29            | 60 %      | Instandhouding waarborgen en verbreden |
+| 3     | 30+               | 100 %     | Meer community werkzaamheden t.b.v. groei |
+
+De werkzaamheden zijn onderverdeeld in fasen. Sommige punten komen voor in meerdere fasen maar iets anders ingericht. Indien dit laatste het geval is, staat dat dikgedrukt aangegeven. De nummering komt voort uit de situatie dat er geen groeimodel was.
+
 ## Werkzaamheden
 
 Om het broncodebeheer uit te voeren zijn de volgende werkzaamheden en activiteiten gedefinieerd, die Broncodebeheerder uitvoert op de Producten:
 
+### Fase 1
+
 1.	invulling geven aan het team dat de werkzaamheden uitvoert,
 2.	zorg dragen voor de beschikbaarheid van de broncode en images (momenteel op Github en DockerHub),
-3.	minimaal dagelijks image en code beveiligingsscans uitvoeren en bevindingen oplossen,
+3.	minimaal **maandelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
+7.	gerapporteerde bugs valideren en beoordelen op prioriteit,
+8.	gevalideerde en geprioriteerde bugs oplossen in **het doorontwikkelingsproces**,
+16.	versiebeheer toepassen zoals uiteengezet in Bijlage 1 (Productversies en ondersteuning),
+22.	een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,
+23.	geschikte Helm charts publiceren voor het product,
+26.	actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
+27.	het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
+
+### Fase 2
+
+Alle werkzaamheden en activiteiten uit fase 1 met aanvullend:
+
 4.	een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen accepteert,
+8.	gevalideerde en geprioriteerde bugs oplossen in **periodieke patch-releases (minimaal 4 keer per jaar)**,
+10.	relevante documentatie bijhouden en openbaar beschikbaar maken,
+17.	openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,
+19.	streven naar backwards compatibiliteit in kleine releases en daarmee installatie/implementatie-upgrades 
+25.	zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
+30.	indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
+
+### Fase 3
+
+Alle werkzaamheden en activiteiten uit fase 2 met aanvullend:
+
+3.	minimaal **dagelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
 5.	een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,
 6.	CVE's publiceren voor gevalideerde beveiligingsproblemen,
-7.	gerapporteerde bugs valideren en beoordelen op prioriteit,
-8.	gevalideerde en geprioriteerde bugs oplossen in patch-releases,
+8.	gevalideerde en geprioriteerde bugs oplossen in **periodieke patch-releases (minimaal 12 keer per jaar)**,
 9.	koppelingen compatible houden met patches en minor versiewijzigingen in het betreffende koppelvlak (major versiewijzigingen vallen expliciet onder doorontwikkeling),
-10.	relevante documentatie bijhouden en openbaar beschikbaar maken,
 11.	contributies aan de open source codebase verwelkomen,
-12.	contributies (“pull requests”) monitoren op kwaliteit, veiligheid, herbruikbaarheid en architecturale fit,
+12.	contributies ("pull requests") monitoren op kwaliteit, veiligheid, herbruikbaarheid en architecturale fit,
 13.	contributie richtlijnen opstellen en onderhouden,
 14.	zorg dragen dat alle bijdragen voldoen aan de licentievoorwaarden van de Europese Unie Publieke Licentie (EUPL) versie 1.2 of hoger,
 15.	een versie controlemechanisme voor productcode onderhouden,
-16.	versiebeheer toepassen zoals uiteengezet in Bijlage 1 (Productversies en ondersteuning),
-17.	openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,
 18.	openbare mailinglijst bijhouden waarop gebruikers geïnformeerd worden over releases en relevant nieuws rondom het product,
-19.	streven naar backwards compatibiliteit in kleine releases en daarmee installatie/implementatie-upgrades vereenvoudigen,
+vereenvoudigen,
 20.	een compatibiliteitsmatrix bijhouden om devops- en implementatie-ontwikkelaars te ondersteunen bij hun werk,
 21.	nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar hebben,
-22.	een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,
-23.	geschikte Helm charts publiceren voor het product,
 24.	gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken') bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,
-25.	zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
-26.	actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
-27.	het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
 28.	minimaal eenmaal per jaar een bijeenkomst te organiseren voor alle broncodebeheerpartners die meedoen aan het broncodebeheer voor het product,
 29.	inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,
-30.	indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
 
 Deze werkzaamheden kunnen enkel plaatsvinden mits het budget dit toelaat. Het is aan de product owner van het Product om dit in de gaten te houden, werkzaamheden te prioriteren en het doelbedrag later te verhogen.
 
@@ -144,6 +189,7 @@ Hier wordt allerhande tooling zoals Github, Dockerhub, test-runners, een playgro
 * **Officiële code repository**: https://github.com/open-formulieren/open-forms/
 * **Officiële image**: https://hub.docker.com/r/openformulieren/open-forms
 * **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+* **Groeifase**: 3 / 3 (100%)
 * **Vaststelling bijdragen**: 8 december 2025
 
 Berekening doelbedrag op jaarbasis:
@@ -184,6 +230,7 @@ Totale bijdrage op jaarbasis:
 * **Officiële code repository**: https://github.com/open-zaak/open-zaak/
 * **Officiële image**: https://hub.docker.com/r/openzaak/open-zaak
 * **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+* **Groeifase**: 3 / 3 (100%)
 * **Vaststelling bijdragen**: 8 december 2025
 
 | Onderwerp                 | Waarde            |
@@ -215,4 +262,4 @@ Totale bijdrage op jaarbasis:
 | **Totaal**    | **25**                | **€ 145.284**                     |
 
 
-*Versie 2 (7 januari 2026)*
+*Versie 3-concept (t.b.d.)*
