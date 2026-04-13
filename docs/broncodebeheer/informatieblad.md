@@ -51,64 +51,64 @@ Het broncodebeheermodel blijft hetzelfde maar er wordt een meetpunt geïntroduce
 
 Als het aantal activiteiten en werkzaamheden daalt, dalen ook de kosten. Dit wordt uitgedruk in het percentage van het doelbedrag (en daarmee de bijdrage) dat benodigd is.
 
-| Fase  | # Eindgebruikers  | Kosten %  | Opmerkingen |
+| Fase              | # Eindgebruikers  | Kosten %  | Opmerkingen |
 |---|---|---|---|
-| 1     | 0 - 5             | 30 %      | Het minimale uit GIBIT 2025/2026 afdekken |
-| 2     | 6 - 29            | 60 %      | Instandhouding waarborgen en verbreden |
-| 3     | 30+               | 100 %     | Meer community werkzaamheden t.b.v. groei |
+| 1. Opstarten      | 0 - 5             | 30 %      | Het minimale uit GIBIT 2025/2026 afdekken |
+| 2. Groeien        | 6 - 29            | 60 %      | Instandhouding waarborgen en verbreden |
+| 3. Opschalen      | 30+               | 100 %     | Meer community werkzaamheden t.b.v. groei |
 
-De werkzaamheden zijn onderverdeeld in fasen. Sommige punten komen voor in meerdere fasen maar iets anders ingericht. Indien dit laatste het geval is, staat dat dikgedrukt aangegeven. De nummering komt voort uit de situatie dat er geen groeimodel was.
+De werkzaamheden zijn onderverdeeld in fasen. Sommige punten komen voor in meerdere fasen maar iets anders ingericht. Indien dit laatste het geval is, staat dat dikgedrukt aangegeven.
 
 ## Werkzaamheden
 
 Om het broncodebeheer uit te voeren zijn de volgende werkzaamheden en activiteiten gedefinieerd, die Broncodebeheerder uitvoert op de Producten:
 
-### Fase 1
+### Fase 1: Opstarten
 
-1.	invulling geven aan het team dat de werkzaamheden uitvoert,
-2.	zorg dragen voor de beschikbaarheid van de broncode en images (momenteel op Github en DockerHub),
-3.	minimaal **maandelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
-7.	gerapporteerde bugs valideren en beoordelen op prioriteit,
-8.	gevalideerde en geprioriteerde bugs oplossen in **het doorontwikkelingsproces**,
-16.	versiebeheer toepassen zoals uiteengezet in Bijlage 1 (Productversies en ondersteuning),
-22.	een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,
-23.	geschikte Helm charts publiceren voor het product,
-26.	actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
-27.	het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
+1. invulling geven aan het team dat de werkzaamheden uitvoert,
+2. zorg dragen voor de beschikbaarheid van de broncode en images (momenteel op Github en DockerHub),
+3. minimaal **maandelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
+4. gerapporteerde bugs valideren en beoordelen op prioriteit,
+5. gevalideerde en geprioriteerde bugs oplossen in **het doorontwikkelingsproces**,
+6. versiebeheer toepassen zoals uiteengezet in Bijlage 1 (Productversies en ondersteuning),
+7. een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,
+8. geschikte Helm charts publiceren voor het product,
+9. actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
+10. het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
 
-### Fase 2
+### Fase 2: Groeien
 
 Alle werkzaamheden en activiteiten uit fase 1 met aanvullend:
 
-4.	een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen accepteert,
-8.	gevalideerde en geprioriteerde bugs oplossen in **periodieke patch-releases (minimaal 4 keer per jaar)**,
-10.	relevante documentatie bijhouden en openbaar beschikbaar maken,
-17.	openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,
-19.	streven naar backwards compatibiliteit in kleine releases en daarmee installatie/implementatie-upgrades 
-25.	zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
-30.	indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
+1. een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen accepteert,
+2. *(uitbreiding op 1.5)* gevalideerde en geprioriteerde bugs oplossen in **periodieke patch-releases (minimaal 4 keer per jaar)**,
+3.	relevante documentatie bijhouden en openbaar beschikbaar maken,
+4.	openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,
+5.	streven naar backwards compatibiliteit in kleine releases en daarmee installatie/implementatie-upgrades 
+6.	zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
+7.	indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
 
-### Fase 3
+### Fase 3: Opschalen
 
 Alle werkzaamheden en activiteiten uit fase 2 met aanvullend:
 
-3.	minimaal **dagelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
-5.	een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,
-6.	CVE's publiceren voor gevalideerde beveiligingsproblemen,
-8.	gevalideerde en geprioriteerde bugs oplossen in **periodieke patch-releases (minimaal 12 keer per jaar)**,
-9.	koppelingen compatible houden met patches en minor versiewijzigingen in het betreffende koppelvlak (major versiewijzigingen vallen expliciet onder doorontwikkeling),
-11.	contributies aan de open source codebase verwelkomen,
-12.	contributies ("pull requests") monitoren op kwaliteit, veiligheid, herbruikbaarheid en architecturale fit,
-13.	contributie richtlijnen opstellen en onderhouden,
-14.	zorg dragen dat alle bijdragen voldoen aan de licentievoorwaarden van de Europese Unie Publieke Licentie (EUPL) versie 1.2 of hoger,
-15.	een versie controlemechanisme voor productcode onderhouden,
-18.	openbare mailinglijst bijhouden waarop gebruikers geïnformeerd worden over releases en relevant nieuws rondom het product,
+1. *(uitbreiding op 1.3)* minimaal **dagelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
+2.	een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,
+3.	CVE's publiceren voor gevalideerde beveiligingsproblemen,
+4.	*(uitbreiding op 2.2)* gevalideerde en geprioriteerde bugs oplossen in **periodieke patch-releases (minimaal 12 keer per jaar)**,
+5.	koppelingen compatible houden met patches en minor versiewijzigingen in het betreffende koppelvlak (major versiewijzigingen vallen expliciet onder doorontwikkeling),
+6.	contributies aan de open source codebase verwelkomen,
+7.	contributies ("pull requests") monitoren op kwaliteit, veiligheid, herbruikbaarheid en architecturale fit,
+8.	contributie richtlijnen opstellen en onderhouden,
+9.	zorg dragen dat alle bijdragen voldoen aan de licentievoorwaarden van de Europese Unie Publieke Licentie (EUPL) versie 1.2 of hoger,
+10.	een versie controlemechanisme voor productcode onderhouden,
+12.	openbare mailinglijst bijhouden waarop gebruikers geïnformeerd worden over releases en relevant nieuws rondom het product,
 vereenvoudigen,
-20.	een compatibiliteitsmatrix bijhouden om devops- en implementatie-ontwikkelaars te ondersteunen bij hun werk,
-21.	nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar hebben,
-24.	gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken') bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,
-28.	minimaal eenmaal per jaar een bijeenkomst te organiseren voor alle broncodebeheerpartners die meedoen aan het broncodebeheer voor het product,
-29.	inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,
+13.	een compatibiliteitsmatrix bijhouden om devops- en implementatie-ontwikkelaars te ondersteunen bij hun werk,
+14.	nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar hebben,
+15.	gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken') bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,
+16.	minimaal eenmaal per jaar een bijeenkomst te organiseren voor alle broncodebeheerpartners die meedoen aan het broncodebeheer voor het product,
+17.	inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,
 
 Deze werkzaamheden kunnen enkel plaatsvinden mits het budget dit toelaat. Het is aan de product owner van het Product om dit in de gaten te houden, werkzaamheden te prioriteren en het doelbedrag later te verhogen.
 
