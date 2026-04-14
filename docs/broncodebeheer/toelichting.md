@@ -23,11 +23,11 @@ Leverancier "Maykin" levert product "Open Formulieren" van broncodebeheerder "Ma
 
 Maykin heeft in haar offertes de bijdrage voor het broncodebeheer **wel** opgenomen.
 
-> Dit is een variant op voorbeeld 2.
+*Dit is een variant op voorbeeld 2.*
 
 ### 2. Afname via een andere leverancier (1)
 
-Leverancier "L" levert product "Open Formulieren" van broncodebeheerder "Maykin" aan eindgebruiker
+Leverancier "L" levert product "Open Formulieren" van broncodebeheerder "Maykin" aan eindgebruiker "G"
 
 * **Leverancier** heeft de *overeenkomst* gesloten met **broncodebeheerder**
 * **Leverancier** levert het *product* aan **eindgebruiker**
@@ -36,11 +36,11 @@ Leverancier "L" levert product "Open Formulieren" van broncodebeheerder "Maykin"
 
 Leverancier "L" heeft in haar offertes de bijdrage voor het broncodebeheer **wel** opgenomen.
 
-> In de overeenkomst heet Leverancier "L", de Gebruiker en kan het product aan meerdere Eindgebruikers leveren.
+*In de overeenkomst heet Leverancier "L" de Gebruiker en kan het product aan meerdere Eindgebruikers (zoals "G") leveren.*
 
-### 3 Afname via een andere leverancier (2)
+### 3. Afname via een andere leverancier (2)
 
-Leverancier "K" levert product "Open Formulieren" van broncodebeheerder "Maykin" aan eindgebruiker "G"
+Leverancier "K" levert product "Open Formulieren" van broncodebeheerder "Maykin" aan eindgebruiker "G".
 
 * **Leverancier** verwijst **eindgebruiker** naar **broncodebeheerder** voor het zelf afdragen van de broncodebeheer bijdrage.
 * **Leverancier** levert het *product* aan **eindgebruiker**
@@ -49,14 +49,14 @@ Leverancier "K" levert product "Open Formulieren" van broncodebeheerder "Maykin"
 
 Leverancier "K" heeft in haar offertes de bijdrage voor het broncodebeheer **niet** opgenomen.
 
-> In de overeenkomst heet Eindgebruiker "G", de Gebruiker, en is zelf de enige Eindgebruiker.
+*In de overeenkomst heet Eindgebruiker "G" de Gebruiker, en is zelf de enige Eindgebruiker.*
 
 ### 4. Zelfstandige gebruiker
 
-Eindgebruiker "G" installeert en gebruikt zelf product "Open Formulieren" van broncodebeheerder "Maykin"
+Eindgebruiker "G" installeert en gebruikt zelf product "Open Formulieren" van broncodebeheerder "Maykin".
 
 * **Eindgebruiker** heeft de *overeenkomst* gesloten met **broncodebeheerder**
 * **Eindgebruiker** levert het *product* aan **eindgebruiker**
 * **Eindgebruiker** betaald de bijdrage voor het broncodebeheer direct aan **broncodebeheerder**
 
-> In de overeenkomst heet Eindgebruiker "G", de Gebruiker, en is zelf de enige Eindgebruiker.
+*In de overeenkomst heet Eindgebruiker "G" de Gebruiker, en is zelf de enige Eindgebruiker.*
