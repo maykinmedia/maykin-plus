@@ -6,4 +6,4 @@ In deze repository staan de openbare documenten die voor iedereen handvaten geve
 
 ## Licentie
 
-Documenten in [deze repository](https://github.com/maykinmedia/maykin-plus/) van [Maykin](https://www.maykin.nl) zijn te gebruiken onder de [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) <img width="16" height="16" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""> <img width="16" height="16" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""> licentie.
+Documenten in [deze repository](https://github.com/maykinmedia/maykin-plus/) van [Maykin](https://www.maykin.nl) zijn te gebruiken onder de [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licentie.
