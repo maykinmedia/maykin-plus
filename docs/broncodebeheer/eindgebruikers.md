@@ -18,8 +18,8 @@ Producten die onder de overeenkomst vallen zijn:
 Hieronder staat een lijst van Eindgebruikers waarvoor Broncodebeheerder de genoemde bijdrage in rekening zal brengen bij de Gebruiker. 
 #### Eindgebruiker 1 (voorbeeld)
 
-**Naam**: Eindgebruiker 1
-**Staffel categorie**: 2
+* **Naam**: Eindgebruiker 1
+* **Staffel categorie**: 2
 
 | Product           | Startdatum | Bijdrage |
 |---|---|---|
@@ -29,8 +29,8 @@ Hieronder staat een lijst van Eindgebruikers waarvoor Broncodebeheerder de genoe
 
 #### Eindgebruiker 2 (voorbeeld)
 
-**Naam**: Eindgebruiker 2
-**Staffel categorie**: 3
+* **Naam**: Eindgebruiker 2
+* **Staffel categorie**: 3
 
 | Product           | Startdatum | Bijdrage |
 |---|---|---|
