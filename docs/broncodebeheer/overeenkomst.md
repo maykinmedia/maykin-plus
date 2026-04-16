@@ -35,7 +35,7 @@ De werkzaamheden en activiteiten die horen bij het veilig en up-to-date houden v
 Van derdenprogrammatuur is sprake wanneer de programmatuur afkomstig is van externe leveranciers die niet verbonden zijn aan de hoofdleverancier en waarover de hoofdleverancier geen invloed heeft op de ontwikkeling.
 
 **Eindgebruiker**  
-Een Eindgebruiker wordt geteld als één afzonderlijke organisatie die ten minste één productie-installatie van het Product in gebruik heeft. Indien er sprake is van een (tussen)Leverancier die het Product (door)levert aan één of meerdere klanten, dan wordt iedere klant afzonderlijk geteld als Eindgebruiker. Het aantal productie-installaties van een enkele Eindgebruiker niet mee voor de telling (bijvoorbeeld 2 afdelingen, met ieder hun eigen installatie van hetzelfde Product).
+Een Eindgebruiker wordt geteld als één afzonderlijke organisatie die ten minste één productie-installatie van het Product in gebruik heeft. Indien er sprake is van een (tussen)Leverancier die het Product (door)levert aan één of meerdere klanten, dan wordt iedere klant afzonderlijk geteld als Eindgebruiker. Het aantal productie-installaties van een enkele Eindgebruiker heeft geen invloed op de telling (bijvoorbeeld 2 afdelingen, met ieder hun eigen installatie van hetzelfde Product).
 Gebruiker kan een Eindgebruiker of Leverancier zijn.
 
 **Leverancier**  
@@ -80,9 +80,9 @@ Artikel 4. Broncodebeheer bijdrage
 4. Broncodebeheerder kan Gebruiker periodiek informeren over voorgenomen ontwikkelingen en input van Gebruiker betrekken bij haar afwegingen, zonder dat dit leidt tot enige verplichting tot implementatie of prioritering.
 5. Er vindt minimaal eenmaal per jaar een evaluatie van de afspraken plaats tussen Broncodebeheerder en de Gebruiker, op initiatief van Broncodebeheerder.
 
-Bijlage 1: Eindgebruikers en bijdragen (separaat)
+Bijlage 1: [Eindgebruikers en bijdragen (separaat)](eindgebruikers)
 
-Bijlage 2: Informatieblad bijdragen voor broncodebeheer 2026 (separaat)
+Bijlage 2: [Informatieblad bijdragen voor broncodebeheer 2026 (separaat)](informatieblad)
 
 **Ondertekening**
 

@@ -2,9 +2,13 @@
 
 *Uitleg en voorbeelden hoe je deze documenten kan gebruiken*
 
+## Terminologie
+
+Broncodebeheer wordt ook wel "instandhouding" genoemd. Kort samengevat is "instandhouding" het veilig en up-to-date houden van software. Bij open source software staat echter niet één partij aan het roer maar een community en kan iedereen - ook niet betalende klanten - de software gebruiken. Deze openheid en manier van werken, vergt bovenop instandhouding extra werk. Om deze reden is "Broncodebeheer" als term geïntroduceerd.
+
 ## Bedoeld gebruik
 
-Het doel van het broncodebeheer model is om alle (overheids)gebruikers (**eindgebruikers**) financieel te laten bijdragen aan de instandhouding. Het *informatieblad* is bedoeld om eindgebruikers inzicht te geven in wat er met hun bijdrage gedaan wordt. En voor **broncodebeheerders** biedt het duidelijkheid over wat er van hen verwacht wordt voor deze bijdrage.
+Het doel van het broncodebeheer model is om alle (overheids)gebruikers (**eindgebruikers**) financieel te laten bijdragen aan het veilig en up-to-date houden van open source software. Het *informatieblad* is bedoeld om eindgebruikers inzicht te geven in wat er met hun bijdrage gedaan wordt. En voor **broncodebeheerders** biedt het duidelijkheid over wat er van hen verwacht wordt voor deze bijdrage.
 
 De *overeenkomst* is (meestal) tussen **leverancier** van een open source product en de **broncodebeheerder**. De overeenkomst bevat afspraken over de naleving van het model.
 
