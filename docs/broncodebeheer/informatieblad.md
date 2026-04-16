@@ -16,7 +16,7 @@ De hoofdontwikkelaar die de ontwikkeling leidt van het betreffende product en ve
 Het bedrag dat is vastgesteld en nodig is om invulling te geven aan de werkzaamheden en kosten voor het broncodebeheer.
 
 **Eindgebruiker**  
-Een Eindgebruiker wordt geteld als één afzonderlijke organisatie die ten minste één productie-installatie van het Product in gebruik heeft. Indien er sprake is van een (tussen)Leverancier die het Product (door)levert aan één of meerdere klanten, dan wordt iedere klant afzonderlijk geteld als Eindgebruiker. Het aantal productie-installaties van een enkele Eindgebruiker niet mee voor de telling (bijvoorbeeld 2 afdelingen, met ieder hun eigen installatie van hetzelfde Product). 
+Een Eindgebruiker wordt geteld als één afzonderlijke organisatie die ten minste één productie-installatie van het Product in gebruik heeft. Indien er sprake is van een (tussen)Leverancier die het Product (door)levert aan één of meerdere klanten, dan wordt iedere klant afzonderlijk geteld als Eindgebruiker. Het aantal productie-installaties van een enkele Eindgebruiker heeft geen invloed op de telling (bijvoorbeeld 2 afdelingen, met ieder hun eigen installatie van hetzelfde Product). 
 
 **Gebruiker**  
 De partij waarmee de broncodebeheer overeenkomst mee is afgesloten, zijnde een Eindgebruiker of een Leverancier. 
@@ -32,20 +32,20 @@ Een Derdenverklaring of Third Party Mededeling (TPM) is een verklaring die afgeg
 
 ## Groeimodel
 
-Een open source product veilig en up-to-date houden is vanaf de allereerste gebruiker simpelweg nodig. Niet alleen voor die ene gebruiker maar ook om het het product levend en aantrekkelijk te houden voor potentiele nieuwe gebruikers.
+Een open source product veilig en up-to-date houden is vanaf de allereerste gebruiker nodig. Niet alleen voor die ene eerste gebruiker maar ook om het het product levend en aantrekkelijk te houden voor potentiële nieuwe gebruikers.
 
-Echter, een relatief nieuw open source product is wel wat anders dan eentje die al langer bestaat. Een nieuw open source product heeft bijvoorbeeld:
+Een relatief nieuw open source product is anders dan product dat al langer bestaat. Een nieuw open source product heeft bijvoorbeeld:
 
 * Weinig gebruikers,
 * Een kleine of geen community,
 * Een enkele aanbieder (vaak de ontwikkelaar),
 * Geen externe bijdragen.
 
-Het broncodebeheer kan daar ook op aangepast worden: Werkzaamheden en activiteiten kunnen geminimaliseerd worden terwijl het producttoch veilig en up-to-date blijft. Denk bijvoorbeeld aan:
+Het broncodebeheer kan daar ook op aangepast worden: Werkzaamheden en activiteiten kunnen geminimaliseerd worden terwijl het product toch veilig en up-to-date blijft. Denk bijvoorbeeld aan:
 
 * Minder vaak releases uitbrengen,
 * Minder actief op externe bijdragen of community vragen,
-* Instandhouding scharen onder (door)ontwikkeling met ad-hoc budget.
+* Bugfixes scharen onder (door)ontwikkeling met ad-hoc budget.
 
 Het broncodebeheermodel blijft hetzelfde maar er wordt een meetpunt geïntroduceerd om te bepalen in welke fase een product in het groeimodel zit. Als meetpunt hanteren we: Het aantal gebruikers dat het product in productie gebruikt, kortweg *eindgebruikers*. Het is zowel een eenvoudig te bepalen meetpunt en ook representatief voor welke werkzaamheden idealiter worden uitgevoerd.
 
@@ -70,7 +70,7 @@ Om het broncodebeheer uit te voeren zijn de volgende werkzaamheden en activiteit
 3. minimaal **maandelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
 4. gerapporteerde bugs valideren en beoordelen op prioriteit,
 5. gevalideerde en geprioriteerde bugs oplossen in **het doorontwikkelingsproces**,
-6. versiebeheer toepassen zoals uiteengezet in Bijlage 1 (Productversies en ondersteuning),
+6. versiebeheer toepassen zoals uiteengezet in een versiebeleid,
 7. een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,
 8. geschikte Helm charts publiceren voor het product,
 9. actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
@@ -90,7 +90,7 @@ Alle werkzaamheden en activiteiten uit fase 1 met aanvullend:
 
 ### Fase 3: Opschalen
 
-Alle werkzaamheden en activiteiten uit fase 2 met aanvullend:
+Alle werkzaamheden en activiteiten uit fase 1 en 2 met aanvullend:
 
 1. *(uitbreiding op 1.3)* minimaal **dagelijks** image en code beveiligingsscans uitvoeren en bevindingen oplossen,
 2.	een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,
@@ -105,12 +105,14 @@ Alle werkzaamheden en activiteiten uit fase 2 met aanvullend:
 12.	openbare mailinglijst bijhouden waarop gebruikers geïnformeerd worden over releases en relevant nieuws rondom het product,
 vereenvoudigen,
 13.	een compatibiliteitsmatrix bijhouden om devops- en implementatie-ontwikkelaars te ondersteunen bij hun werk,
-14.	nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar hebben,
+14.	nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar te hebben,
 15.	gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken') bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,
 16.	minimaal eenmaal per jaar een bijeenkomst te organiseren voor alle broncodebeheerpartners die meedoen aan het broncodebeheer voor het product,
 17.	inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,
+18. minimaal 3 maanden bugfixes toepassen op, en veiligheidsissues oplossen in, de vorige minor versie,
+19. minimaal 6 maanden bugfixes toepassen op, en veiligheidsissues oplossen in, de vorige major versie,
 
-Deze werkzaamheden kunnen enkel plaatsvinden mits het budget dit toelaat. Het is aan de product owner van het Product om dit in de gaten te houden, werkzaamheden te prioriteren en het doelbedrag later te verhogen.
+Deze werkzaamheden kunnen enkel plaatsvinden mits het budget dit toelaat. Het is aan de product owner van het Product om dit in de gaten te houden, werkzaamheden te prioriteren en het doelbedrag later aan te passen.
 
 ## Staffel
 
