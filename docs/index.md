@@ -11,7 +11,7 @@ Onder de noemer **{MAYKIN}+** voert [Maykin](https://www.maykin.nl) allerlei act
 
 ## Thema's
 
-* [Broncodebeheer](broncodebeheer) - Instandhouding na de initiële realisatie fase
+* [Broncodebeheer](broncodebeheer) - Veilig en up-to-date open source software na de initiële realisatie fase
 
 ## Websites
 

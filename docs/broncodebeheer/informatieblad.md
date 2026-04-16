@@ -1,4 +1,4 @@
-# Informatieblad bijdragen voor broncodebeheer 2026
+# Informatieblad bijdragen voor broncodebeheer (werkversie)
 
 *Voor producten waar Broncodebeheerder het broncodebeheer voor verzorgd*
 

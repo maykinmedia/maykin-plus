@@ -2,16 +2,18 @@
 
 Onder **broncodebeheer** vallen alle werkzaamheden en activiteiten die horen bij het veilig en up-to-date houden van een open source applicatie, het onderhouden van de documentatie en het zorg dragen voor een gezond open source ecosysteem rondom het product.
 
-Broncodebeheer is geïntroduceerd om na de realisatie van een open source applicatie - vaak middels een project met een start- en einddatum - de instandhouding te garanderen. Het broncodebeheer wordt uitgevoerd door een **broncodebeheerder**.
+Broncodebeheer is geïntroduceerd om na de realisatie van een open source applicatie - vaak middels een project met een start- en einddatum - bovenstaande activiteiten te kunnen voortzetten. Het broncodebeheer wordt uitgevoerd door een **broncodebeheerder**.
 
-Vanuit de gedachte dat elke (overheids)gebruiker mee betaald aan broncodebeheer, moet elke (overheids)gebruiker, eventueel via een (tussen)leverancier, een overeenkomst afsluiten met de broncodebeheerder.
+Vanuit de gedachte dat elke (overheids)gebruiker mee betaald aan broncodebeheer, moet elke (overheids)gebruiker, eventueel via een (tussen)leverancier, een overeenkomst afsluiten met de broncodebeheerder. Lees er meer over in de [toelichting](toelichting) en het [informatieblad](informatieblad).
 
 # Documenten
 
 * [Toelichting](toelichting) - Uitleg en voorbeelden hoe deze documenten te gebruiken
-* [Informatieblad](informatieblad) - Uitgebreide informatie over broncodebeheer en de kosten (werkversie)
-  * [2026](archief/informatieblad-2026.md) - Vastgestelde versie 2026
 * [Overeenkomst](overeenkomst) - Concept overeenkomst tussen gebruiker en broncodebeheerder
+* [Bijlage 1: Eindgebruikers en bijdragen](eindgebruikers) - Concept tabel om op te nemen welke gebruikers horen bij de overeenkomst
+* [Bijlage 2: Informatieblad](informatieblad) - Uitgebreide informatie over broncodebeheer en de kosten (werkversie)
+  * [2026](archief/informatieblad-2026.md) - Vastgestelde versie 2026
+
 
 # Berichten en media
 
