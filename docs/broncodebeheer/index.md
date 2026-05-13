@@ -8,6 +8,12 @@ Broncodebeheer is geïntroduceerd om na de realisatie van een open source applic
 
 Vanuit de gedachte dat elke (overheids)gebruiker mee betaald aan broncodebeheer, moet elke (overheids)gebruiker, eventueel via een (tussen)leverancier, een overeenkomst afsluiten met de broncodebeheerder. Lees er meer over in de [toelichting](toelichting) en het [informatieblad](informatieblad).
 
+
+# Aanmelden
+
+Leverancier of gebruiker van open source software van Maykin's hand? [Meld je aan als deelnemer van broncodebeheer](https://open-forms.maykin.opengem.nl/bijdragen-aan-broncodebeheer/startpagina).
+
+
 # Documenten
 
 * [Toelichting](toelichting) - Uitleg en voorbeelden hoe deze documenten te gebruiken
