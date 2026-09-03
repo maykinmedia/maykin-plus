@@ -60,7 +60,9 @@ Een applicatie of registratie-component waar Broncodebeheerder de ontwikkeling v
 
 1. De overeenkomst treedt in werking op `____________________` na ondertekend te zijn door beide Partijen en heeft een looptijd van 1 jaar.
 2. Deze overeenkomst wordt telkenmale met 1 jaar verlengd tenzij een van de Partijen de overeenkomst schriftelijk beëindigt. Beëindiging van de overeenkomst moet 2 maanden voor de ingang van het nieuwe kalenderjaar plaatsvinden.
-Artikel 4. Broncodebeheer bijdrage
+
+## Artikel 4. Broncodebeheer bijdrage
+
 1. De bijdrage voor het broncodebeheer van het Product, hierna de "Bijdrage" genoemd, wordt gebruikt om de werkzaamheden zoals vermeld in artikel 2 lid 2 uit te voeren.
 2. Eenmaal per jaar wordt de Bijdrage, inclusief de indexatie, opnieuw vastgesteld voor het Product. De nieuwe Bijdrage zal uiterlijk 2 maanden voor de ingang van het nieuwe kalenderjaar worden gecommuniceerd.
 3. Broncodebeheerder verplicht zichzelf om transparant te communiceren naar Gebruiker over alle ontvangen bijdragen en uitgaven.
