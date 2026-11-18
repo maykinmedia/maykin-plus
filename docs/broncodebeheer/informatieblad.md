@@ -57,8 +57,8 @@ Als het aantal activiteiten en werkzaamheden daalt, dalen ook de kosten. Dit wor
 | Fase              | # Eindgebruikers  | Kosten %  | Opmerkingen |
 |---|---|---|---|
 | 1. Opstarten      | 0 - 5             | 30 %      | Het minimale uit GIBIT 2025/2026 afdekken |
-| 2. Groeien        | 6 - 29            | 60 %      | Instandhouding waarborgen en verbreden |
-| 3. Opschalen      | 30+               | 100 %     | Meer community werkzaamheden t.b.v. groei |
+| 2. Groeien        | 6 - 24            | 60 %      | Instandhouding waarborgen en verbreden |
+| 3. Opschalen      | 25+               | 100 %     | Meer community werkzaamheden t.b.v. groei |
 
 De werkzaamheden zijn onderverdeeld in fasen. Sommige punten komen voor in meerdere fasen maar iets anders ingericht. Indien dit laatste het geval is, staat dat dikgedrukt aangegeven.
 
@@ -356,26 +356,26 @@ Berekening doelbedrag op jaarbasis:
 | Aantal feature releases	| 6                 |
 | PO-activiteiten	        | EUR 10.000        |
 | Toolingkosten	            | EUR 5.000         |
-| **Doelbedrag**	        | **EUR 220.000**   |
+| **Doelbedrag**	        | **EUR 220.000 x 60% = EUR 135.000**  |
 
 Bijdrage per organisatie (bedrag door te berekenen aan Gebruiker):
 
 | Categorie | Bijdrage per maand    |
 |---|---|
-| 1         | € 340                 |
-| 2         | € 680                 |
-| 3         | € 1.359               |
-| 4         | € 2.717               |
+| 1         | € 209                 |
+| 2         | € 417                 |
+| 3         | € 834                 |
+| 4         | € 1.667               |
 
 Totale bijdrage op jaarbasis:
 
 | Categorie     | Aantal organisaties   | Bijdrage x Aantal organisaties    |
 |---|---|---|
-| 1             | 2                     | € 8.160                           |
-| 2             | 12                    | € 97.920                          |
-| 3             | 3                     | € 48.924                          |
-| 4             | 2                     | € 65.208                          |
-| **Totaal**    | **19**                | **€ 220.212**                     |
+| 1             | 2                     | € 5.016                           |
+| 2             | 12                    | € 60.048                          |
+| 3             | 3                     | € 30.024                          |
+| 4             | 2                     | € 40.008                          |
+| **Totaal**    | **19**                | **€ 135.096**                     |
 
 
 *Versie 4-concept (18 november 2026)*
