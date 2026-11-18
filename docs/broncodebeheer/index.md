@@ -20,6 +20,7 @@ Leverancier of gebruiker van open source software van Maykin's hand? [Meld je aa
 * [Overeenkomst](overeenkomst) - Concept overeenkomst tussen gebruiker en broncodebeheerder
 * [Bijlage 1: Eindgebruikers en bijdragen](eindgebruikers) - Concept tabel om op te nemen welke gebruikers horen bij de overeenkomst
 * [Bijlage 2: Informatieblad](informatieblad) - Uitgebreide informatie over broncodebeheer en de kosten (werkversie)
+  * [2027](informatieblad.md) - Concept versie 2027
   * [2026](archief/informatieblad-2026.md) - Vastgestelde versie 2026
 * [Oproep voor op repositories](oproep.md) - Oproep opgesteld door koplopers
 

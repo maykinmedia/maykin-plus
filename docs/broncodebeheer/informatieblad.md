@@ -9,10 +9,13 @@ Dit document bevat alle informatie rondom het broncodebeheer dat Broncodebeheerd
 ## Definities
 
 **Broncodebeheer**  
-De werkzaamheden en activiteiten die horen bij het veilig en up-to-date houden van een open source applicatie, het onderhouden van de documentatie en het zorg dragen voor een gezond open source ecosysteem rondom het product.
+De werkzaamheden en activiteiten die horen bij het veilig en up-to-date houden van een open source applicatie, het onderhouden van de documentatie en het zorg dragen voor een gezond open source ecosysteem rondom het Product.
 
 **Broncodebeheerder**  
 De hoofdontwikkelaar die de ontwikkeling leidt van het betreffende product en verantwoordelijk is voor het uitvoeren van de werkzaamheden en activiteiten die vallen onder Broncodebeheer.
+
+**Broncodebeheer-overeenkomst**
+De overeenkomst tussen Gebruiker en Broncodebeheerder, die het Broncodebeheer regelt voor de overeengekomen Producten.
 
 **Doelbedrag**  
 Het bedrag dat is vastgesteld en nodig is om invulling te geven aan de werkzaamheden en kosten voor het broncodebeheer.
@@ -21,7 +24,7 @@ Het bedrag dat is vastgesteld en nodig is om invulling te geven aan de werkzaamh
 Een Eindgebruiker wordt geteld als één afzonderlijke organisatie die ten minste één productie-installatie van het Product in gebruik heeft. Indien er sprake is van een (tussen)Leverancier die het Product (door)levert aan één of meerdere klanten, dan wordt iedere klant afzonderlijk geteld als Eindgebruiker. Het aantal productie-installaties van een enkele Eindgebruiker heeft geen invloed op de telling (bijvoorbeeld 2 afdelingen, met ieder hun eigen installatie van hetzelfde Product). 
 
 **Gebruiker**  
-De partij waarmee de broncodebeheer overeenkomst mee is afgesloten, zijnde een Eindgebruiker of een Leverancier. 
+De partij waarmee de Broncodebeheer-overeenkomst mee is afgesloten, zijnde een Eindgebruiker of een Leverancier. 
 
 **Leverancier**  
 Organisatie die het Product levert aan een Eindgebruiker.
@@ -29,8 +32,6 @@ Organisatie die het Product levert aan een Eindgebruiker.
 **Product(en)**  
 Een applicatie of registratie-component waar Broncodebeheerder de ontwikkeling van leidt en het broncodebeheer voor verzorgd.
 
-**TPM-verklaring**  
-Een Derdenverklaring of Third Party Mededeling (TPM) is een verklaring die afgegeven wordt door een onafhankelijk audit partij over de kwaliteit van een ICT-dienstverlening en -beheersing van een organisatie.
 
 ## Groeimodel
 
@@ -77,6 +78,7 @@ Om het broncodebeheer uit te voeren zijn de volgende werkzaamheden en activiteit
 8. geschikte Helm charts publiceren voor het product,
 9. actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
 10. het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
+11. een minimale governance opzetten.
 
 ### Fase 2: Groeien
 
@@ -84,11 +86,12 @@ Alle werkzaamheden en activiteiten uit fase 1 met aanvullend:
 
 1. een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen accepteert,
 2. *(uitbreiding op 1.5)* gevalideerde en geprioriteerde bugs oplossen in **periodieke patch-releases (minimaal 4 keer per jaar)**,
-3.	relevante documentatie bijhouden en openbaar beschikbaar maken,
-4.	openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,
-5.	streven naar backwards compatibiliteit in kleine releases en daarmee installatie/implementatie-upgrades 
-6.	zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
-7.	indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
+3. relevante documentatie bijhouden en openbaar beschikbaar maken,
+4. openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,
+5. streven naar backwards compatibiliteit in kleine releases en daarmee installatie/implementatie-upgrades,
+6. zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
+7. indien een DigiD-aansluiting aanwezig is in het Product kan Gebruiker norm B.05 van het ICT-beveiligingsassessments DigiD afdekken middels Broncodebeheer-overeenkomst,
+8. *(uitbreiding op 1.11)* een governance opzetten met een stuurgroep waarin minimaal 1 publieke organisatie in vertegenwoordigd is.
 
 ### Fase 3: Opschalen
 
@@ -113,6 +116,7 @@ vereenvoudigen,
 17.	inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,
 18. minimaal 3 maanden bugfixes toepassen op, en veiligheidsissues oplossen in, de vorige minor versie,
 19. minimaal 6 maanden bugfixes toepassen op, en veiligheidsissues oplossen in, de vorige major versie,
+20. *(uitbreiding op 2.8)* een openbare governance structuur naar developer.overheid.nl model.
 
 Deze werkzaamheden kunnen enkel plaatsvinden mits het budget dit toelaat. Het is aan de product owner van het Product om dit in de gaten te houden, werkzaamheden te prioriteren en het doelbedrag later aan te passen.
 
@@ -129,6 +133,9 @@ Er wordt een staffel gehanteerd om de bijdragen naar rato te verdelen over alle 
 | A	        | Provincie                                 | 5         |
 | B	        | Waterschap                                | 3         |
 | C	        | Rijksoverheid                             | 10        |
+| D         | Organisatie vallend onder Rijksoverheid   | 4         |
+| E	        | Omgevingsdienst / Veiligheidsregio's      | 1         |
+| F	        | Overige gemeenschappelijke regelingen     | 2         |
 | X	        | MKB-onderneming                           | 3         |
 | Y	        | Grote onderneming                         | 8         |
 
@@ -188,13 +195,15 @@ Hier wordt allerhande tooling zoals Github, Dockerhub, test-runners, een playgro
   
 ## Producten
 
+*We hanteren dezelfde aantallen gebruikers als in 2026. Hoewel het aantal gebruikers is gestegen blijft het aantal daadwerkelijke bijdragers dusdanig achter dat een verlaging van de bijdragen (wat gebeurt als het aantal gebruikers stijgt) simpelweg niet realistisch is.*
+
 ### Open Formulieren
 
 * **Officiële code repository**: https://github.com/open-formulieren/open-forms/
 * **Officiële image**: https://hub.docker.com/r/openformulieren/open-forms
 * **Officiële Helm-chart**: https://github.com/maykinmedia/charts
 * **Groeifase**: 3 / 3 (100%)
-* **Vaststelling bijdragen**: 8 december 2025
+* **Vaststelling bijdragen**: 18 november 2026
 
 Berekening doelbedrag op jaarbasis:
 
@@ -229,13 +238,15 @@ Totale bijdrage op jaarbasis:
 | **Totaal**    | **45**                | **€ 325.380**                     |
 
  
-## Open Zaak
+## Open Zaak (transitie van 2026 naar 2027)
+
+Open Zaak valt vanaf 1 januari 2027 onder Open Gegevenslaag. Overeenkomsten die gesloten zijn voor 1 januari 2027 kunnen nog maximaal t/m 31 december 2027 gebruik maken van deze bedragen.
 
 * **Officiële code repository**: https://github.com/open-zaak/open-zaak/
 * **Officiële image**: https://hub.docker.com/r/openzaak/open-zaak
 * **Officiële Helm-chart**: https://github.com/maykinmedia/charts
 * **Groeifase**: 3 / 3 (100%)
-* **Vaststelling bijdragen**: 8 december 2025
+* **Vaststelling bijdragen**: 18 november 2026
 
 | Onderwerp                 | Waarde            |
 |---|---|
@@ -266,4 +277,105 @@ Totale bijdrage op jaarbasis:
 | **Totaal**    | **25**                | **€ 145.284**                     |
 
 
-*Versie 3-concept (t.b.d.)*
+## Open Gegevenslaag
+
+Bestaande uit 4 componenten: Open Zaak, Open Notificatie, Open Object en Open Klant.
+
+* **Groeifase**: 3 / 3 (100%)
+* **Vaststelling bijdragen**: 18 november 2026
+
+| Onderwerp                 | Waarde            |
+|---|---|
+| Broncode complexiteit	    | B                 |
+| Aantal koppelingen	    | 1                 |
+| Developmentteam	        | 6,0               |
+| Broncode grootte	        | Large            |
+| Aantal feature releases	| 6                 |
+| PO-activiteiten	        | EUR 30.000        |
+| Toolingkosten	            | EUR 10.000         |
+| **Doelbedrag**	        | **EUR 230.000**   |
+
+| Categorie | Bijdrage per maand    |
+|---|---|
+| 1         | € 223                 |
+| 2         | € 446                 |
+| 3         | € 892                 |
+| 4         | € 1.783               |
+
+Totale bijdrage op jaarbasis:
+
+| Categorie     | Aantal organisaties   | Bijdrage x Aantal organisaties    |
+|---|---|---|
+| 1             | 2                     | € 5.352                           |
+| 2             | 14                    | € 74.928                          |
+| 3             | 4                     | € 42.816                          |
+| 4             | 5                     | € 106.980                         |
+| **Totaal**    | **25**                | **€ 230.076**                     |
+
+### Open Zaak
+
+* **Officiële code repository**: https://github.com/open-zaak/open-zaak/
+* **Officiële image**: https://hub.docker.com/r/openzaak/open-zaak
+* **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+
+### Open Notificatie
+
+* **Officiële code repository**: https://github.com/open-zaak/open-notificaties/
+* **Officiële image**: https://hub.docker.com/r/openzaak/open-notificaties
+* **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+
+### Open Object
+
+* **Officiële code repository**: https://github.com/maykinmedia/open-object/
+* **Officiële image**: https://hub.docker.com/r/maykinmedia/open-object
+* **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+
+### Open Klant
+
+* **Officiële code repository**: https://github.com/maykinmedia/open-klant/
+* **Officiële image**: https://hub.docker.com/r/maykinmedia/open-klant
+* **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+
+
+### Open Inwoner Portaal
+
+* **Officiële code repository**: https://github.com/maykinmedia/open-inwoner/
+* **Officiële image**: https://hub.docker.com/r/maykinmedia/open-inwoner
+* **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+* **Groeifase**: 2 / 3 (60%)
+* **Vaststelling bijdragen**: 18 november 2026
+
+Berekening doelbedrag op jaarbasis:
+
+| Onderwerp                 | Waarde            |
+|---|---|
+| Broncode complexiteit	    | C                 |
+| Aantal koppelingen	    | 10                |
+| Developmentteam	        | 3,0               |
+| Broncode grootte	        | Medium            |
+| Aantal feature releases	| 6                 |
+| PO-activiteiten	        | EUR 10.000        |
+| Toolingkosten	            | EUR 5.000         |
+| **Doelbedrag**	        | **EUR 220.000**   |
+
+Bijdrage per organisatie (bedrag door te berekenen aan Gebruiker):
+
+| Categorie | Bijdrage per maand    |
+|---|---|
+| 1         | € 340                 |
+| 2         | € 680                 |
+| 3         | € 1.359               |
+| 4         | € 2.717               |
+
+Totale bijdrage op jaarbasis:
+
+| Categorie     | Aantal organisaties   | Bijdrage x Aantal organisaties    |
+|---|---|---|
+| 1             | 2                     | € 8.160                           |
+| 2             | 12                    | € 97.920                          |
+| 3             | 3                     | € 48.924                          |
+| 4             | 2                     | € 65.208                          |
+| **Totaal**    | **19**                | **€ 220.212**                     |
+
+
+*Versie 4-concept (18 november 2026)*
