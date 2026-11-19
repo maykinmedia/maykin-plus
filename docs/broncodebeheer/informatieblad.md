@@ -195,7 +195,7 @@ Hier wordt allerhande tooling zoals Github, Dockerhub, test-runners, een playgro
   
 ## Producten
 
-*We hanteren dezelfde aantallen gebruikers als in 2026. Hoewel het aantal gebruikers is gestegen blijft het aantal daadwerkelijke bijdragers dusdanig achter dat een verlaging van de bijdragen (wat gebeurt als het aantal gebruikers stijgt) simpelweg niet realistisch is.*
+*We hanteren dezelfde aantallen gebruikers als in 2026. Hoewel het aantal gebruikers is gestegen blijft het aantal daadwerkelijke bijdragers dusdanig achter dat een verlaging van de bijdragen (wat gebeurt als het aantal gebruikers stijgt) simpelweg niet realistisch is. De budgetten, ondanks de hogere kosten, stijgen daarom ook niet.*
 
 ### Open Formulieren
 
@@ -342,7 +342,7 @@ Totale bijdrage op jaarbasis:
 * **Officiële code repository**: https://github.com/maykinmedia/open-inwoner/
 * **Officiële image**: https://hub.docker.com/r/maykinmedia/open-inwoner
 * **Officiële Helm-chart**: https://github.com/maykinmedia/charts
-* **Groeifase**: 2 / 3 (60%)
+* **Groeifase**: 3 / 3 (100%)
 * **Vaststelling bijdragen**: 18 november 2026
 
 Berekening doelbedrag op jaarbasis:
@@ -356,26 +356,61 @@ Berekening doelbedrag op jaarbasis:
 | Aantal feature releases	| 6                 |
 | PO-activiteiten	        | EUR 10.000        |
 | Toolingkosten	            | EUR 5.000         |
-| **Doelbedrag**	        | **EUR 220.000 x 60% = EUR 135.000**  |
+| **Doelbedrag**	        | **EUR 220.000**   |
 
 Bijdrage per organisatie (bedrag door te berekenen aan Gebruiker):
 
 | Categorie | Bijdrage per maand    |
 |---|---|
-| 1         | € 209                 |
-| 2         | € 417                 |
-| 3         | € 834                 |
-| 4         | € 1.667               |
+| 1         | € 340                 |
+| 2         | € 680                 |
+| 3         | € 1.359               |
+| 4         | € 2.717               |
 
 Totale bijdrage op jaarbasis:
 
 | Categorie     | Aantal organisaties   | Bijdrage x Aantal organisaties    |
 |---|---|---|
-| 1             | 2                     | € 5.016                           |
-| 2             | 12                    | € 60.048                          |
-| 3             | 3                     | € 30.024                          |
-| 4             | 2                     | € 40.008                          |
-| **Totaal**    | **19**                | **€ 135.096**                     |
+| 1             | 2                     | € 8.160                           |
+| 2             | 12                    | € 97.920                          |
+| 3             | 3                     | € 48.924                          |
+| 4             | 2                     | € 65.208                          |
+| **Totaal**    | **19**                | **€ 220.212**                     |
 
 
-*Versie 4-concept (18 november 2026)*
+### Open Archiefbeheer
+
+* **Officiële code repository**: https://github.com/maykinmedia/open-archiefbeheer/
+* **Officiële image**: https://hub.docker.com/r/maykinmedia/open-archiefbeheer
+* **Officiële Helm-chart**: https://github.com/maykinmedia/charts
+* **Groeifase**: 1 / 3 (30%)
+* **Vaststelling bijdragen**: 23 november 2026
+
+Berekening doelbedrag op jaarbasis:
+
+| Onderwerp                 | Waarde            |
+|---|---|
+| Broncode complexiteit	    | C                 |
+| Aantal koppelingen	    | 3                |
+| Developmentteam	        | 3,0               |
+| Broncode grootte	        | Medium            |
+| Aantal feature releases	| 2                 |
+| PO-activiteiten	        | EUR 10.000        |
+| Toolingkosten	            | EUR 5.000         |
+| **Doelbedrag**	        | **EUR 165.000 x 30% \~ EUR 50.000**  |
+
+Bijdrage per organisatie (bedrag door te berekenen aan Gebruiker):
+
+| Categorie | Bijdrage per maand    |
+|---|---|
+| 4         | € 1.389               |
+
+Totale bijdrage op jaarbasis:
+
+| Categorie     | Aantal organisaties   | Bijdrage x Aantal organisaties    |
+|---|---|---|
+| 4             | 3                     | € 50.004                          |
+| **Totaal**    | **19**                | **€ 50.004**                      |
+
+
+*Versie 5 (tbd)*
