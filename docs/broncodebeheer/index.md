@@ -26,6 +26,7 @@ Leverancier of gebruiker van open source software van Maykin's hand? [Meld je aa
 
 # Berichten en media
 
+* 23 november 2026 - [Broncodebeheer verslag 2026/2027](../assets/publications/broncodebeheer-2026-2027.pdf)
 * 3 september 2026 - [Oproep vanuit koplopers](https://www.linkedin.com/posts/maykin-media_opensource-opensource-activity-7501187795479265281-rAMt)
 * 9 maart 2026 - [Blogpost op Opensourcewerken.nl](https://opensourcewerken.nl/blog/view/fded8b6d-d17b-440c-98b5-02a552955c21/broncodebeheer-als-voorwaarde-voor-open-source)
 * 4 maart 2026 - [Interview met Raakvlak Advies](https://www.raakvlakadvies.nl/cases/een-model-voor-broncodebeheer)

@@ -1,6 +1,6 @@
 ← [Terug naar Broncodebeheer](index)
 
-# Overeenkomst - Open source broncodebeheer bijdrage
+# Broncodebeheer-overeenkomst
 
 **De ondergetekenden:**
 
@@ -84,7 +84,7 @@ Artikel 4. Broncodebeheer bijdrage
 
 Bijlage 1: [Eindgebruikers en bijdragen (separaat)](eindgebruikers)
 
-Bijlage 2: [Informatieblad bijdragen voor broncodebeheer 2026 (separaat)](informatieblad)
+Bijlage 2: [Informatieblad bijdragen voor broncodebeheer 2027 (separaat)](informatieblad)
 
 **Ondertekening**
 

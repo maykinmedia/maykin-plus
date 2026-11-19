@@ -195,7 +195,7 @@ Hier wordt allerhande tooling zoals Github, Dockerhub, test-runners, een playgro
   
 ## Producten
 
-*We hanteren dezelfde aantallen gebruikers als in 2026. Hoewel het aantal gebruikers is gestegen blijft het aantal daadwerkelijke bijdragers dusdanig achter dat een verlaging van de bijdragen (wat gebeurt als het aantal gebruikers stijgt) simpelweg niet realistisch is.*
+*We hanteren dezelfde aantallen gebruikers als in 2026. Hoewel het aantal gebruikers is gestegen blijft het aantal daadwerkelijke bijdragers dusdanig achter dat een verlaging van de bijdragen (wat gebeurt als het aantal gebruikers stijgt) simpelweg niet realistisch is. De budgetten, ondanks de hogere kosten, stijgen daarom ook niet.*
 
 ### Open Formulieren
 
@@ -356,7 +356,7 @@ Berekening doelbedrag op jaarbasis:
 | Aantal feature releases	| 6                 |
 | PO-activiteiten	        | EUR 10.000        |
 | Toolingkosten	            | EUR 5.000         |
-| **Doelbedrag**	        | **EUR 220.000 x 60% = EUR 135.000**  |
+| **Doelbedrag**	        | **EUR 220.000 x 60% \~ EUR 135.000**  |
 
 Bijdrage per organisatie (bedrag door te berekenen aan Gebruiker):
 
@@ -378,4 +378,4 @@ Totale bijdrage op jaarbasis:
 | **Totaal**    | **19**                | **€ 135.096**                     |
 
 
-*Versie 4-concept (18 november 2026)*
+*Versie 5-concept (t.b.d.)*
